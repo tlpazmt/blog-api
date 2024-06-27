@@ -35,4 +35,7 @@ return [
         ],
     ],
 
+    'dummy_json' => [
+        'base_url' => env('DUMMY_JSON_BASE_URL', 'https://dummyjson.com'),
+    ],
 ];
